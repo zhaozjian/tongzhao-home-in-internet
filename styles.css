@@ -1,0 +1,106 @@
+body {
+    background-color: #dbdbdb; /* 设置背景颜色为白色 */
+}
+
+
+
+/*左上角logo及字*/
+/* 对于小屏幕设备 */
+@media (max-width: 600px) {
+    .left-space {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .left-space img {
+        width: 130px; 
+    }
+    .middlebox p {
+        font-size: 16px;
+    }
+    .card{
+        border-radius: 12px;
+        /*margin: 8px;*/
+        background-color: #7f7f7f20;
+        padding: 10px 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+}
+/* 对于中等屏幕设备 */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .left-space {
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .left-space img {
+        width: 200px; 
+    }
+    .middlebox p {
+        font-size: 25px;
+    }
+    .card{
+        border-radius: 12px;
+        /*margin: 8px;*/
+        background-color: #7f7f7f20;
+        padding: 10px 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 550px;
+    }
+}
+/* 对于大屏幕设备 */
+@media (min-width: 1025px) {
+    .left-space {
+        margin-left: 200px;
+        margin-top: 50px;
+    }
+    .left-space img {
+        width: 250px; 
+    }
+    .middlebox p {
+    font-size: 30px;
+    }
+    .card{
+        border-radius: 12px;
+        /*margin: 8px;*/
+        background-color: #7f7f7f20;
+        padding: 10px 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 820px;
+    }
+}
+
+
+
+.head {
+
+    /*margin: 50px;/*边距*/
+
+    width: 50%;
+    margin: 0 auto;
+
+    background-color: #4CAF50;
+    border-radius: 90px; /* 设置圆角的半径 */
+}
+
+.head p {
+    margin-bottom: -50px; /* 调整间距 */
+}
+
+
+.middlebox{
+    text-align: center;
+    /*max-width: 300px;*/
+}
+
+.smallcard{
+    border-radius: 12px;
+    background-color: #1e202520;
+    padding: 10px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: left;
+}
